@@ -1,0 +1,12 @@
+.DS_Store
+
+IBEROFONÍA Y SOCIALISMO (Santiago Armesilla) (Z-Library).md
+
+sin-preprocesar/
+
+docs/prompts/*
+!docs/prompts/desarrollar-vocabulario.md
+!docs/prompts/hacer el vocabulario.md
+!docs/prompts/index.md
+!docs/prompts/indexar_capitulo_segun_la_biblia.md
+!docs/prompts/crear-buen-indice.md
