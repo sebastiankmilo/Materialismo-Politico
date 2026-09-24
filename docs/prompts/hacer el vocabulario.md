@@ -15,13 +15,11 @@
 
 | Etiqueta | Descripción / Alcance |
 |----------|------------------------|
-| infraestructura | capa de infraestructura |
-| dominio | capa de dominio |
-| aplicación | capa de aplicación |
-| API | capa de api |
-| C# | concepto relacionado al lenguaje de programacion C# |
-| SQL | concepto relacionado a el lenguaje de SQL|
-| Test | concepto relacionado a pruebas (tests) |
+| ontologia | -- |
+| escolastica | -- |
+| materialismo-filosofico | -- |
+| fundamentos-materialismo-politico | -- |
+| materialismo-historico | -- |
 
 *(Agrega tus etiquetas aquí y usa exactamente estos nombres en las dos tablas.)*
 
@@ -29,13 +27,13 @@
 
 Palabras pertinentes y necesarias para desarrollar entendimiento. Una fila por acepción.
 
-| Índice | Subíndice | Término | Definición (con tus palabras) | Ejemplo | Fuente/Contexto | Fecha | Tema |
-|--------|-----------|---------|-------------------------------|---------|-----------------|-------|------|
-| 1 | 1 | actuador | Dispositivo que convierte energía en movimiento mecánico. | El brazo del robot usa actuadores hidráulicos para levantar carga. | [Wikipedia – Actuador](https://es.wikipedia.org/wiki/Actuador) | 2026-08-28 | robotica |
-| 2 | 1 | amortización | Reducción gradual de una deuda mediante pagos periódicos. | La amortización del préstamo se calcula a 5 años. | [Investopedia – Amortization](https://www.investopedia.com/terms/a/amortization.asp) | 2026-08-28 | finanzas |
-| 2 | 2 | amortización | Pérdida de valor de un activo intangible con el tiempo (contable). | La patente se amortiza en 10 años ([notas de contabilidad](./notas/contabilidad.md)). | [Investopedia – Amortization](https://www.investopedia.com/terms/a/amortization.asp) | 2026-08-28 | finanzas |
-| | | | | | | | |
-| | | | | | | | |
+| Índice | Subíndice | Término | Definición (con tus palabras) | Ejemplo | Fuente/Contexto | Fecha | Tema | Término-con-IA (dejar en blanco si no se generó con IA) |
+|--------|-----------|---------|-------------------------------|---------|-----------------|-------|------|------|
+| 1 | 1 | actuador | Dispositivo que convierte energía en movimiento mecánico. | El brazo del robot usa actuadores hidráulicos para levantar carga. | [Wikipedia – Actuador](https://es.wikipedia.org/wiki/Actuador) | 2026-08-28 | robotica | |
+| 2 | 1 | amortización | Reducción gradual de una deuda mediante pagos periódicos. | La amortización del préstamo se calcula a 5 años. | [Investopedia – Amortization](https://www.investopedia.com/terms/a/amortization.asp) | 2026-08-28 | finanzas | |
+| 2 | 2 | amortización | Pérdida de valor de un activo intangible con el tiempo (contable). | La patente se amortiza en 10 años ([notas de contabilidad](./notas/contabilidad.md)). | [Investopedia – Amortization](https://www.investopedia.com/terms/a/amortization.asp) | 2026-08-28 | finanzas | |
+| | | | | | | | | |
+| | | | | | | | | |
 
 ## Tabla 2 — Palabras a tener en cuenta (ejemplo)
 
@@ -169,5 +167,6 @@ Si no hay versículo en un libro del ticket, cita solo la página externa.
 - **Sin acuerdo:** solo en la Tabla 1. Si la definición aún no está pactada, la celda Definición empieza por ***sin acuerdo*** (negrita y cursiva). Al acordarla, se quita esa marca.
 - **Enlaces clickeables en Ejemplo y Fuente/Contexto:** ver la sección **Cómo citar**.
 - Si la fuente no tiene enlace (un libro físico, una clase), escribe el texto plano.
-- La columna **Tema** (última columna) admite varias etiquetas separadas por coma: `legal, finanzas`. Las etiquetas válidas se definen en la sección **Temas / Etiquetas**.
+- La columna **Tema** admite varias etiquetas separadas por coma: `legal, finanzas`. Las etiquetas válidas se definen en la sección **Temas / Etiquetas**.
+- **Término-con-IA** (solo Tabla 1, última columna): se deja en blanco si el término no se generó con IA; si se generó, se anota ahí.
 - Este archivo se puede abrir directo en Excel/Google Sheets pegando la tabla, o convertir a CSV para Anki/Quizlet.
